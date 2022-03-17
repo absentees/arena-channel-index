@@ -5,5 +5,12 @@
   "repository": "https://github.com/absentees/arena-channel-index.git",
   "author": "Scott B <djlethal109@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "web-ext": "^6.7.0"
+  },
+  "scripts": {
+    "dev": "web-ext run",
+    "build": "web-ext build"
+  }
 }
